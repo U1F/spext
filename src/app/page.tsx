@@ -5,46 +5,46 @@ export default function Home() {
     <main className="font-sans flex">
       <menu id="menu" className="hidden lg:flex basis-96 p-8">
         <nav>
-          <h1>Spex</h1>
+          <h1 className="py-4">Spex</h1>
 
-          <ul>
-            <li className="list-item">
+          <ul className="flex-column space-y-4">
+            <li className="space-x-2 p-2 hover:bg-slate-900">
               <span>👉</span>
-              <span> Dashboard </span>
+              <span>Dashboard </span>
             </li>
-            <li className="list-item">
+            <li className="space-x-2 p-2 hover:bg-slate-900">
               <span>❤️</span>
-              <span> Submissions </span>
+              <span>Submissions </span>
             </li>
-            <li className="list-item">
+            <li className="space-x-2 p-2 hover:bg-slate-900">
               <span>✔️</span>
-              <span> Settings </span>
+              <span>Settings </span>
             </li>
             <li className="list-spacer"></li>
-            <li className="list-item">
+            <li className="space-x-2 p-2 hover:bg-slate-900">
               <span>🎉</span>
-              <span> Music Library </span>
+              <span>Music Library </span>
             </li>
-            <li className="list-item">
+            <li className="space-x-2 p-2 hover:bg-slate-900">
               <span>⭐</span>
-              <span> Artists </span>
+              <span>Artists </span>
             </li>
             <li className="list-spacer"></li>
-            <li className="list-item">
+            <li className="space-x-2 p-2 hover:bg-slate-900">
               <span>🫠</span>
-              <span> FAQ </span>
+              <span>FAQ </span>
             </li>
-            <li className="list-item">
+            <li className="space-x-2 p-2 hover:bg-slate-900">
               <span>👍</span>
-              <span> Contact Us </span>
+              <span>Contact Us </span>
             </li>
-            <li className="list-item">
+            <li className="space-x-2 p-2 hover:bg-slate-900">
               <span>🫶</span>
-              <span> About Us </span>
+              <span>About Us </span>
             </li>
             <li className="list-spacer"></li>
             <li className="list-spacer-grow"></li>
-            <li className="list-item">
+            <li className="space-x-2 p-2 hover:bg-slate-900">
               <span>💀</span>
               <span>Log Out</span>
             </li>
